@@ -20,7 +20,7 @@ public class MainMenu
 	private JFrame frame;
 	private final Action action = new BeginAction();
 	private final Action action_1 = new IntroAction();
-	private JLabel lblSpaceDictators = new JLabel("Space Dictators");
+	private JLabel lblSpaceDictators = new JLabel("The Rule of Space");
 	private JButton btnIntro = new JButton("Intro");
 	private JButton btnBegin = new JButton("Begin");
 	private JTextPane txtpnIntro = new JTextPane();
@@ -86,7 +86,7 @@ public class MainMenu
 		
 		//JLabel lblSpaceDictators = new JLabel("Space Dictators");
 		lblSpaceDictators.setFont(new Font("Lucida Grande", Font.PLAIN, 80));
-		lblSpaceDictators.setBounds(647, 37, 626, 121);
+		lblSpaceDictators.setBounds(647, 37, 700, 121);
 		frame.getContentPane().add(lblSpaceDictators);
 		
 		//JTextPane txtpnIntro = new JTextPane();
